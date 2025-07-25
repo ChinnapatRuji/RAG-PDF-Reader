@@ -1,0 +1,24 @@
+# Streamlit for web UI
+streamlit
+
+# PDF processing (fitz)
+PyMuPDF==1.23.7
+
+# LangChain components for RAG
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+
+# Embeddings from HuggingFace
+sentence-transformers
+
+# Vector store
+chromadb
+
+# Environment variable handling
+python-dotenv
+
+# Ollama
+ollama
+requests
