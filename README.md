@@ -3,18 +3,19 @@ This project enables document-based question answering using Retrieval-Augmented
 
 # 🛠️ Setup
 1. Clone the repository:  
-git clone https://github.com/ChinnapatRuji/RAG-PDF-Inquiry.git  
+`git clone https://github.com/ChinnapatRuji/RAG-PDF-Inquiry.git`
 
 2. Download and install Ollama from:
 👉 https://ollama.com  
-After installation, pull a model of your choice, for example: ollama pull gemma3n:e2b
+After installation, pull a model of your choice, for example: `ollama pull gemma3n:e2b`
 
-4. Set up the Environment in .env  
+4. Set up the Environment in `.env`
 
 5. Download Dependencies  
 Ensure you have Python 3.9+ installed.  
-All required Python packages are listed in 'requirements.txt'. To install them, run: pip install -r requirements.txt
+All required Python packages are listed in 'requirements.txt'.  
+To install them, run: `pip install -r requirements.txt`
 
-6. Run the streamlit app: streamlit run app.py  
+7. Run the streamlit app: `streamlit run app.py`   
 The Streamlit interface will open in your browser. Upload PDFs, ask questions, and get document-based answers instantly.
 
